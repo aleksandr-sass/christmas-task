@@ -600,5 +600,3 @@ const data = [
     favorite: true,
   },
 ];
-
-export default data;
