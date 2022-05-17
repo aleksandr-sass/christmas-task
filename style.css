@@ -1,0 +1,15 @@
+div#flex-container {
+  display: flex;
+}
+
+div#img {
+  width: 33%;
+}
+
+div#toy-text {
+  width: 67%;
+}
+
+div#img img {
+  width: 100%;
+}
