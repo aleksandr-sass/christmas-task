@@ -1,0 +1,31 @@
+div.flex-container {
+  display: flex;
+}
+
+div.img {
+  width: 33%;
+  margin: 20px;
+}
+
+div.toy {
+  background-color: #048a78;
+  border: 2px solid #00f7ff;
+  border-radius: 10px;
+}
+
+div.toy h3 {
+  text-align: center;
+}
+
+div.toy h3, p {
+  color: #ffffff;
+  font-family: sans-serif;
+}
+
+div#toy-text {
+  width: 67%;
+}
+
+div.img img {
+  width: 100%;
+}
