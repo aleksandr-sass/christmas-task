@@ -22,7 +22,7 @@ div.toy h3, p {
   font-family: sans-serif;
 }
 
-div#toy-text {
+div.toy-text {
   width: 67%;
 }
 
