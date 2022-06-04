@@ -22,10 +22,33 @@ div.toy h3, p {
   font-family: sans-serif;
 }
 
-div#toy-text {
+div.toy-text {
   width: 67%;
 }
 
 div.img img {
   width: 100%;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 990px) {
+  #grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  #grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #grid {
+    grid-template-columns: 1fr;
+  }
 }

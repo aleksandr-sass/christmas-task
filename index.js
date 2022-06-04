@@ -32,7 +32,7 @@ function makeTheToy(obj, index) {
   const toySizeHTML = `<p>Размер: ${obj.size}</p>`;
   const toyIsFavoriteHTML = `<p>Любимая: ${boolToRussian(obj.favorite)}</p>`;
 
-  toyTextHTML = `<div id="toy-text">` +
+  toyTextHTML = `<div class="toy-text">` +
                toyCountHTML + 
                toyYearOfPurchaseHTML +
                toyShapeHTML +
